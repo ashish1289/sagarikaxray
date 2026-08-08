@@ -1,0 +1,71 @@
+export const siteConfig = {
+  name: "Home Portable Digital X-Ray Service",
+  description: "Professional Home X-Ray Service at Your Doorstep",
+  phone: "+91-XXXXXXXXXX",
+  email: "contact@example.com",
+  address: "Bhubaneswar, Odisha",
+  workingHours: "Available 7 Days a Week, 8:00 AM - 8:00 PM",
+  social: {
+    whatsapp: "https://wa.me/91XXXXXXXXXX",
+  },
+  navLinks: [
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
+    { label: "Process", href: "#process" },
+    { label: "Pricing", href: "#pricing" },
+    { label: "FAQ", href: "#faq" },
+    { label: "Contact", href: "#contact" },
+  ],
+  services: [
+    { id: "chest", title: "Chest X-Ray", desc: "Diagnosis of respiratory and lung conditions." },
+    { id: "spine", title: "Spine X-Ray", desc: "Cervical, Thoracic and Lumbar Spine imaging." },
+    { id: "limb", title: "Limb X-Ray", desc: "Arms, Legs, Hands, Feet, Elbow, Wrist and Knee." },
+    { id: "pelvis", title: "Pelvis X-Ray", desc: "High-quality pelvic imaging at home." },
+    { id: "hip", title: "Hip X-Ray", desc: "Portable hip imaging for elderly patients." },
+    { id: "shoulder", title: "Shoulder X-Ray", desc: "Quick diagnosis of shoulder injuries." },
+    { id: "knee", title: "Knee X-Ray", desc: "Pain, arthritis and injury evaluation." },
+    { id: "foot", title: "Foot & Ankle X-Ray", desc: "Fast digital imaging for fractures and injuries." },
+    { id: "post-surgery", title: "Post Surgery Imaging", desc: "Follow-up X-rays after orthopedic procedures." },
+  ],
+  features: [
+    { title: "Certified Radiographers", desc: "Experienced professionals perform every examination." },
+    { title: "Modern Portable Equipment", desc: "Latest digital portable X-ray machines with excellent image quality." },
+    { title: "Safe Procedure", desc: "Radiation safety protocols are followed at every visit." },
+    { title: "Fast Reports", desc: "Receive digital reports quickly through email or WhatsApp." },
+    { title: "Home Comfort", desc: "Avoid hospital queues and unnecessary travel." },
+    { title: "Affordable Pricing", desc: "Transparent pricing with no hidden charges." },
+  ],
+  howItWorks: [
+    { step: 1, title: "Call or Book Online", desc: "Contact us to schedule your visit." },
+    { step: 2, title: "Choose Appointment Time", desc: "Pick a slot that suits your convenience." },
+    { step: 3, title: "Certified Radiographer Visits Your Home", desc: "Our technician arrives with the portable machine." },
+    { step: 4, title: "Digital X-Ray Performed", desc: "Safe and quick imaging process." },
+    { step: 5, title: "Doctor Reviews Images", desc: "Quality check and diagnosis." },
+    { step: 6, title: "Digital Report Delivered", desc: "Fast delivery via email or WhatsApp." },
+  ],
+  benefits: [
+    "Elderly Patients",
+    "Bedridden Patients",
+    "Orthopedic Patients",
+    "Stroke Recovery",
+    "Post Surgery Patients",
+    "Disabled Patients",
+    "ICU Home Care Patients",
+    "Patients with Limited Mobility"
+  ],
+  areas: [
+    "Bhubaneswar",
+    "Cuttack",
+    "Khordha",
+    "Puri",
+    "Nearby Locations"
+  ],
+  faqs: [
+    { q: "Is Home X-Ray Safe?", a: "Yes. Portable digital X-ray equipment follows medical radiation safety standards." },
+    { q: "Do I Need a Doctor's Prescription?", a: "A prescription may be required depending on local regulations and the type of examination." },
+    { q: "How Long Does It Take?", a: "Usually 20–30 minutes." },
+    { q: "When Will I Receive My Report?", a: "Typically within a few hours to 24 hours, depending on the examination." },
+    { q: "Which Payment Methods Are Accepted?", a: "UPI, Cash, Debit/Credit Cards and Online Payments." },
+  ]
+};
