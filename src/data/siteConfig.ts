@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Home Portable Digital X-Ray Service",
-  description: "Professional Home X-Ray Service at Your Doorstep",
+  name: "Sagarika Home X-Ray",
+  description: "Professional Sagarika Home X-Ray Service at Your Doorstep",
   phone: "+91-XXXXXXXXXX",
   email: "contact@example.com",
   address: "Bhubaneswar, Odisha",

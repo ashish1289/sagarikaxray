@@ -18,8 +18,8 @@ export const About = () => {
             viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
             className="relative order-2 lg:order-1">
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-teal-500/10 border-4 border-white aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=900&q=85"
-                alt="Home healthcare service"
+              <img src="/about_xray_service.png"
+                alt="Certified radiographer performing portable X-ray at patient's home"
                 className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-tr from-teal-900/20 to-transparent" />
             </div>

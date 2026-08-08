@@ -11,11 +11,9 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2.5 group mb-6 w-fit">
-              <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-teal-700 rounded-xl flex items-center justify-center shadow-lg shadow-teal-900/50">
-                <Activity size={20} className="text-white" />
-              </div>
+              <img src="/logo.png" alt="Sagarika Home X-Ray Logo" className="w-10 h-10 object-contain rounded-xl shadow-md" />
               <span className="font-heading font-extrabold text-xl text-white tracking-tight">
-                Home<span className="text-teal-400">X-Ray</span>
+                Sagarika <span className="text-teal-400">Home X-Ray</span>
               </span>
             </a>
             <p className="text-slate-400 max-w-xs mb-6 text-sm leading-relaxed">

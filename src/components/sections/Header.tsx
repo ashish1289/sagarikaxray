@@ -23,12 +23,10 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2.5 group">
-          <div className="relative w-10 h-10 bg-gradient-to-br from-teal-600 to-sky-500 rounded-xl flex items-center justify-center shadow-lg shadow-teal-500/30 group-hover:scale-105 transition-transform">
-            <Activity size={20} className="text-white" />
-          </div>
+          <img src="/logo.png" alt="Sagarika Home X-Ray Logo" className="w-10 h-10 object-contain rounded-xl shadow-md group-hover:scale-105 transition-transform" />
           <div className="flex flex-col leading-none">
             <span className="font-heading font-extrabold text-xl tracking-tight text-slate-900">
-              Home<span className="gradient-text">X-Ray</span>
+              Sagarika <span className="gradient-text">Home X-Ray</span>
             </span>
             <span className="text-[10px] text-slate-500 font-medium tracking-widest uppercase">Diagnostic Service</span>
           </div>
